@@ -1,7 +1,7 @@
 #include <iostream>
-#include<vector>
-#include<string>
-
+#include <vector>
+#include <string>
+#include <memory>
 //custom classes
 #include "Sockpuppet.h"
 #include "Msgcreator.h"
@@ -14,11 +14,10 @@ using namespace std;
 
 int main(void){
     vector<string> messages;
-    Msgcreator *msgc = new Msgcreator();
-
+    std::shared_ptr<Msgcreator> msgc = std::make_shared<Msgcreator>();
+    
     msgc->readmessage(messages);
     msgc->printlog(messages);
-
 
     return 0;
 };
