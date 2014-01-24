@@ -1,0 +1,37 @@
+﻿Build started 24/01/2014 20:48:21.
+     1>Project "C:\Users\lucas\Documents\GitHub\cibo\Cibo\Cibo\Cibo.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\visual studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp Msgcreator.cpp
+         Msgcreator.cpp
+     1>c:\users\lucas\documents\github\cibo\cibo\cibo\msgcreator.cpp(10): error C2784: 'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)' : could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &' from 'overloaded-function'
+                 d:\visual studio\vc\include\string(135) : see declaration of 'std::operator >>'
+     1>c:\users\lucas\documents\github\cibo\cibo\cibo\msgcreator.cpp(10): error C2784: 'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &)' : could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &&' from 'overloaded-function'
+                 d:\visual studio\vc\include\string(21) : see declaration of 'std::operator >>'
+     1>c:\users\lucas\documents\github\cibo\cibo\cibo\msgcreator.cpp(10): error C2784: 'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &&,_Ty &)' : could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &&' from 'overloaded-function'
+                 d:\visual studio\vc\include\istream(1103) : see declaration of 'std::operator >>'
+     1>c:\users\lucas\documents\github\cibo\cibo\cibo\msgcreator.cpp(10): error C2784: 'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,unsigned char &)' : could not deduce template argument for 'std::basic_istream<char,_Traits> &' from 'overloaded-function'
+                 d:\visual studio\vc\include\istream(1093) : see declaration of 'std::operator >>'
+     1>c:\users\lucas\documents\github\cibo\cibo\cibo\msgcreator.cpp(10): error C2784: 'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,unsigned char *)' : could not deduce template argument for 'std::basic_istream<char,_Traits> &' from 'overloaded-function'
+                 d:\visual studio\vc\include\istream(1086) : see declaration of 'std::operator >>'
+     1>c:\users\lucas\documents\github\cibo\cibo\cibo\msgcreator.cpp(10): error C2784: 'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,signed char &)' : could not deduce template argument for 'std::basic_istream<char,_Traits> &' from 'overloaded-function'
+                 d:\visual studio\vc\include\istream(1079) : see declaration of 'std::operator >>'
+     1>c:\users\lucas\documents\github\cibo\cibo\cibo\msgcreator.cpp(10): error C2784: 'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,signed char *)' : could not deduce template argument for 'std::basic_istream<char,_Traits> &' from 'overloaded-function'
+                 d:\visual studio\vc\include\istream(1072) : see declaration of 'std::operator >>'
+     1>c:\users\lucas\documents\github\cibo\cibo\cibo\msgcreator.cpp(10): error C2784: 'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem &)' : could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &' from 'overloaded-function'
+                 d:\visual studio\vc\include\istream(1047) : see declaration of 'std::operator >>'
+     1>c:\users\lucas\documents\github\cibo\cibo\cibo\msgcreator.cpp(10): error C2784: 'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem *)' : could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &' from 'overloaded-function'
+                 d:\visual studio\vc\include\istream(1006) : see declaration of 'std::operator >>'
+     1>c:\users\lucas\documents\github\cibo\cibo\cibo\msgcreator.cpp(10): error C2677: binary '>>' : no global operator found which takes type 'std::string' (or there is no acceptable conversion)
+     1>c:\users\lucas\documents\github\cibo\cibo\cibo\msgcreator.cpp(24): warning C4018: '<' : signed/unsigned mismatch
+         Main.cpp
+     1>c:\users\lucas\documents\github\cibo\cibo\cibo\msgcreator.h(10): error C2061: syntax error : identifier 'vector'
+     1>c:\users\lucas\documents\github\cibo\cibo\cibo\msgcreator.h(11): error C2061: syntax error : identifier 'vector'
+     1>c:\users\lucas\documents\github\cibo\cibo\cibo\msgcreator.h(12): error C2061: syntax error : identifier 'vector'
+     1>c:\users\lucas\documents\github\cibo\cibo\cibo\main.cpp(21): error C2660: 'Msgcreator::readmessage' : function does not take 1 arguments
+     1>c:\users\lucas\documents\github\cibo\cibo\cibo\main.cpp(22): error C2660: 'Msgcreator::printlog' : function does not take 1 arguments
+         Generating Code...
+     1>Done Building Project "C:\Users\lucas\Documents\GitHub\cibo\Cibo\Cibo\Cibo.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.48
